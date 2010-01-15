@@ -3,7 +3,7 @@ require "hoe"
 
 Hoe.plugin :doofus, :git
 
-Hoe.spec "vlad-git" do
+Hoe.spec "ktheory-vlad-git" do
   developer "John Barnette", "jbarnette@rubyforge.org"
 
   self.extra_rdoc_files = FileList["*.rdoc"]
