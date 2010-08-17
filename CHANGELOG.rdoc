@@ -1,3 +1,12 @@
+=== 2.1.1 / 2010-08-17
+
+* Fix compatability with Rake 2.1.0
+  (Vlad::CommandFailedError became Rake::CommandFailedError)
+
+* Fixed git submodule initialization for older git versions (< 1.5.6).
+
+* Fixed bug that caused old code to be deployed
+
 === 2.1.0 / 2009-10-14
 
 * Added git submodule support. [Balazs Nagy]
