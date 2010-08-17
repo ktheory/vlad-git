@@ -10,11 +10,12 @@ modules outside the core recipe have been extracted.
 
 == Examples
 
+    # In your Rakefile
     Vlad.load :scm => :git
 
 == Installation
 
-    $ gem install vlad-git
+    $ gem install ktheory-vlad-git
 
 == License
 
